@@ -62,9 +62,12 @@ More rounds, more resolution — the loop keeps having somewhere to go.
 ## Why GLM-5.3-Flash
 
 Natively multimodal, so it reads a render the way it reads a photo — no captioning layer
-in between losing the spatial detail that decides whether a reconstruction is right. And
-cheap enough that running the full loop costs pennies, which is what turns iteration from
-a nice idea into the default.
+in between losing the spatial detail that decides whether a reconstruction is right.
+
+And the economics are what make the loop viable at all. Everything in this project —
+every trial, every dead end, every scene generation, render, critique and rewrite from
+the first test to the final diner — cost **$0.43 total**. Iteration stops being something
+you ration.
 
 ## Output
 
