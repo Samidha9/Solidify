@@ -1,0 +1,16 @@
+**1. Camera position and angle**
+- Real photo: camera is off-axis, standing at the front-left near the window, angled across the room (two-point perspective). The left wall with booths recedes to the right, and the counter runs along the right edge, with the "DINER" sign wall centered in the background.
+- Reconstruction: camera is dead-center in the aisle, looking straight down the room (one-point perspective).
+- **Fix:** Move the camera to the left side of the room near the front window and rotate it diagonally toward the back-right corner so the counter hugs the right edge of frame and the back wall (with the exit door) is visible off to the right.
+
+**2. Booths are wrong — no tables, wrong structure**
+- Real photo: individual booth units along the left wall, each with facing bench seats and a marble-topped table with chrome trim between them. There's also a standalone table in the foreground.
+- Reconstruction: continuous, uninterrupted teal bench runs along the left wall with no tabletops at all — it reads as banquet seating, not booths.
+- **Fix:** Break the bench run into separate booths, add chrome-edged tables between the facing seats, and keep the tall channel-tufted backrests.
+
+**3. Floor tile scale and color**
+- Real photo: small black-and-white checkerboard tiles (dozens visible across the aisle width).
+- Reconstruction: oversized gray-and-white checker tiles (only ~6–8 across the aisle), which makes the room feel much larger and emptier than it is.
+- **Fix:** Reduce tile size to roughly a quarter of the current size and change the dark tiles to black, not gray.
+
+**Honorable mentions (smaller but noticeable):** the pink neon "DINER" sign, neon clock, and "GOOD FOOD GOOD MOOD" sign are missing entirely; the single scalloped pendant lamp near the left wall became three cone lamps over the counter; and the menu boards should hang high above the counter, not mid-wall on the right.
