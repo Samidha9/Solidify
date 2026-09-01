@@ -1,13 +1,13 @@
 # Solidify
 
-**A photo goes in. An editable 3D scene comes out — and the model corrects its own work along the way.**
+**A photo goes in. An editable 3D scene comes out. The model corrects its own work along the way.**
 
 Solidify hands GLM-5.3-Flash a photograph of an interior. The model writes a Blender
 script, renders the scene, then looks at its own render side by side with the original
-photo, works out what doesn't match, and rewrites the script. Round after round, the
-render moves toward the reference.
+photo, works out what doesn't match, and rewrites the script. Every round lands closer
+to the reference.
 
-Built with GLM-5.3-Flash for the Lightning Hackathon.
+Built with GLM-5.3-Flash.
 
 | Photo | Round 1 | Round 2 | Round 3 |
 |---|---|---|---|
@@ -41,9 +41,23 @@ It measured its own floor tiles as 2–3× too large, diagnosed its booths as ba
 seating rather than facing pairs, and named the perspective structure of its own render
 before prescribing the fix.
 
-By round 3 the camera matches the photo's composition, the booths run under the windows,
-the counter and stools line the right wall, and the detail fills in — tables, condiments,
-wall menus, the ceiling pendant.
+## Round by round
+
+Each pass works at a finer grain than the last.
+
+**Round 1** gets the elements right — pink walls, teal upholstery, checkerboard floor,
+chrome-base stools, window blinds — but the floor plan is mirrored and the booths float
+loose in the room.
+
+**Round 2** fixes the structure. The camera flips to look down the length of the diner,
+the way the photo does. Booths move against the window wall; the counter and stools take
+the right side.
+
+**Round 3** fills in the detail: tables attached to every booth, condiment bottles,
+menu boards above the counter, the ceiling pendant, the wall clock. The composition now
+reads as the same space as the photograph.
+
+More rounds, more resolution — the loop keeps having somewhere to go.
 
 ## Why GLM-5.3-Flash
 
@@ -70,8 +84,8 @@ Requires Blender 5.2. Set `BLENDER` in cell 1 to your install path, then run
 ## Files
 
 - `photo-3d.ipynb` — the pipeline
-- `Diner.png` — source photo
-- `diner_01.png`, `diner_02.png`, `diner_03.png` — renders per round
-- `diner_0N_critique.txt` — the model's assessment of its own work each round
-- `diner_description.txt` — the spatial spec it wrote from the photo
-- `diner_03.blend` — final editable scene
+- `Reference.png` — source photo
+- `results/diner_01.png`, `diner_02.png`, `diner_03.png` — renders per round
+- `results/diner_0N_critique.txt` — the model's assessment of its own work each round
+- `results/diner_description.txt` — the spatial spec it wrote from the photo
+- `results/diner_03.blend` — final editable scene
