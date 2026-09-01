@@ -11,7 +11,7 @@ Built with GLM-5.3-Flash for the Lightning Hackathon.
 
 | Photo | Round 1 | Round 2 | Round 3 |
 |---|---|---|---|
-| ![](Diner.png) | ![](diner_01.png) | ![](diner_02.png) | ![](diner_03.png) |
+| ![](Diner.png) | ![](results/diner_01.png) | ![](results/diner_02.png) | ![](results/diner_03.png) |
 
 ## The loop
 
