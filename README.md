@@ -1,6 +1,8 @@
-# Solidify
+Solidify
 
-**A photo goes in. An editable 3D scene comes out. The model corrects its own work along the way.**
+🏆 Winner, Most Frontier Build Track | Cerebral Valley Hackathon
+
+Transform a single photograph into an editable 3D environment using multimodal AI, autonomous code generation, and iterative self-correction.
 
 Solidify reconstructs real interiors in 3D from a single photograph. Point it at a room
 you want to redesign, a childhood home from an old picture, a place that no longer
