@@ -1,4 +1,4 @@
-Solidify
+# Solidify
 
 🏆 Winner, Most Frontier Build Track | Cerebral Valley Hackathon
 
